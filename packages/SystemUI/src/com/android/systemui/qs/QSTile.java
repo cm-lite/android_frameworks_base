@@ -84,7 +84,7 @@ public abstract class QSTile<TState extends State> implements Listenable {
         mHandler = new H(host.getLooper());
     }
 
-    public boolean supportsDualTargets() {
+    public boolean hasDualTargetsDetails() {
         return false;
     }
 
